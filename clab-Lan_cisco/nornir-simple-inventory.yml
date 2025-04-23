@@ -1,0 +1,41 @@
+---
+r1:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.6
+r2:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.4
+r3:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.3
+r4:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.9
+r5:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.8
+sw1:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.7
+sw2:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.5
+sw3:
+    username: admin
+    password: admin
+    platform: cisco_iol
+    hostname: 172.20.20.2
