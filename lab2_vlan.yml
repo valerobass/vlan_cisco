@@ -1,4 +1,4 @@
-name: Lan_cisco
+name: vlan_cisco
 topology:
     nodes:
         r1:
