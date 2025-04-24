@@ -25,8 +25,8 @@ interface Ethernet0/0
 
  vrf forwarding clab-mgmt
  description clab-mgmt
- ip address 172.20.20.5 255.255.255.0
- ipv6 address 3fff:172:20:20::5/64
+ ip address 172.20.20.9 255.255.255.0
+ ipv6 address 3fff:172:20:20::9/64
  no shutdown
 !
 interface Ethernet0/1
@@ -51,17 +51,17 @@ line vty 0 4
  transport input ssh
 !
 ! Configuración de Ethernet 0/3 como enlace trunk para conectarse al switch anterior
-interface Ethernet0/3
+interface FastEthernet0/3
  switchport mode trunk
  switchport trunk allowed vlan 10,20
 
 ! Configuración de Ethernet 0/1 para la VLAN 10
-interface Ethernet0/1
+interface FastEthernet0/1
  switchport mode access
  switchport access vlan 10
 
 ! Configuración de Ethernet 0/2 para la VLAN 20
-interface Ethernet0/2
+interface FastEthernet0/2
  switchport mode access
  switchport access vlan 20
 
